@@ -3,5 +3,10 @@ def reverse_each_word(sentence)
   backwards = []
   backwards << sentence.split
   
+  sentence.collect
+  
+  
+  
   sentence.collect { |words| words.reverse}
+  sentence.collect
 end
