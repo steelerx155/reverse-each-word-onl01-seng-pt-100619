@@ -1,6 +1,6 @@
 require 'pry'
-def reverse_each_word(sentence)
+def reverse_each_word(sentence1)
   backwards = []
-  backwards << sentence.split
-    sentence.collect { |words| words.reverse}
+  backwards << sentence1.split
+   sentence1.collect { |words| words.reverse}
 end
